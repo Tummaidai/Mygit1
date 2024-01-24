@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as st
+import pandas as pd
 
 st.title("การทดสอบสร้างเว็ปด้วยPython")
 st.image("R.jpg")
