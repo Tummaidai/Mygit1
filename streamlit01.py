@@ -19,5 +19,5 @@ with col3:
     st.header("Setosa")
     st.image("./img/661px-Iris_setosa_2.jpg")
 
-df=pd.read_csv("./data/iris.cv")
+df=pd.read_csv("./data/iris.csv")
 st.write(df.head(10))
