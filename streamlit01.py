@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as st
 
 st.title("การทดสอบสร้างเว็ปด้วยPython")
 st.image("R.jpg")
@@ -17,3 +18,6 @@ with col2:
 with col3:
     st.header("Setosa")
     st.image("./img/661px-Iris_setosa_2.jpg")
+
+df=pd.read_csv("./data/iris.cv")
+st.write(df.head(10))
