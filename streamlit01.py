@@ -12,7 +12,7 @@ with col1:
 
 with col2:
     st.header("Verginica")
-    st.image(".img/Iris_virginica.jpg")
+    st.image("./img/Iris_virginica.jpg")
 
 with col3:
     st.header("Setosa")
