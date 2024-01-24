@@ -20,4 +20,10 @@ with col3:
     st.image("./img/661px-Iris_setosa_2.jpg")
 
 df=pd.read_csv("./data/iris.csv")
-st.write(df.head(10))
+
+
+if(st.button("แสดงข้อมูลตัวอย่าง")):
+    st.write(df.head(10))
+    st.button("ไม่แสดงข้อมูลตัวอย่าง")
+else:
+    st.button("ไม่แสดงข้อมูลตัวอย่าง")
